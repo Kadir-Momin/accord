@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { ArrowBigLeft, ArrowBigRight, CircleDot, Circle } from 'lucide-react'
+import {  CircleDot, Circle } from 'lucide-react'
 import './Slider.css'
 
 
