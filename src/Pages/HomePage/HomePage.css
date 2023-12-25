@@ -1,0 +1,30 @@
+.home-page{
+    /* background: linear-gradient(#a6d8ff, #b6cccf, #fff); */
+    background-color: #e6e9ea;
+}
+
+.about{
+    padding: 1rem 4rem;
+    
+}
+
+.about h1{
+    font-size: 2rem;  
+}
+
+.about p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.about span {
+    background: rgb(138, 216, 131);
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.about span:hover{
+    font-size: 1.6rem;
+}

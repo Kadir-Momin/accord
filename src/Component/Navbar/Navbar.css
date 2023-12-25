@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 2rem;
+}
+
+.nav-link{
+    list-style: none;
+    font-size: 20px;
+}

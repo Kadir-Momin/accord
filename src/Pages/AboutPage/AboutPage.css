@@ -1,0 +1,42 @@
+.about-page-container{
+
+}
+
+.about-image{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-page-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.about-heading{
+    position: absolute;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+    top: 0;
+    left: 1rem;
+}
+
+.about-body{
+    padding: 1rem 10rem;
+    background: linear-gradient(#a6d8ff, #b6cccf, #fff);
+    /* background: #222833; */
+}
+
+.about-body h1{
+    font-size: 4rem;   
+}
+
+.about-body p{
+    font-size: 2rem;
+    line-height: 3rem;
+}

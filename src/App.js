@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import SectionOne from './Component/SectionOne/SectionOne';
+import SectionTwo from './Component/SectionTwo/SectionTwo';
+import Navbar from './Component/Navbar/Navbar';
+import Footer from './Component/Footer/Footer';
+import AboutPage from './Pages/AboutPage/AboutPage';
+import HomePage from './Pages/HomePage/HomePage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +24,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <Navbar /> */}
+      {/* <SectionOne /> */}
+      {/* <SectionTwo /> */}
+      {/* <AboutPage /> */}
+      {/* <Footer /> */}
+      <HomePage />
     </div>
   );
 }

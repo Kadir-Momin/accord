@@ -1,0 +1,33 @@
+.container{
+    background-color: #666;
+}
+
+.container p, small{
+    color: white;
+    font-size: 18px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+    padding: 2rem;
+}
+
+.social-media-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.firm-logo,
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
